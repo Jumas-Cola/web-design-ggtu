@@ -42,3 +42,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Consults */
+
+.consult-wave {
+  min-height: 330px;
+  background-image: url(../img/section-delimiter.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-size: 24pt;
+  font-weight: 800;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

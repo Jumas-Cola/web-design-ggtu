@@ -1,6 +1,6 @@
 <template>
   <select>
-    <option v-for="item in items" value="item.value">{{ item.key }}</option>
+    <option v-for="item in items" :value="item.value">{{ item.key }}</option>
   </select>
 </template>
 
@@ -11,6 +11,7 @@ select {
   padding: 8px 20px 8px 20px;
   color: #ffffff;
   text-align: center;
+  cursor: pointer;
 }
 </style>
 
