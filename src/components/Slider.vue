@@ -42,19 +42,19 @@ export default {
     return {
       cards: [
         {
-          image: "/src/assets/img/advantages/4.png",
+          image: "/img/advantages/4.png",
           text: "Быстрая доставка",
         },
         {
-          image: "/src/assets/img/advantages/3.png",
+          image: "/img/advantages/3.png",
           text: "Гарантия качества",
         },
         {
-          image: "/src/assets/img/advantages/2.png",
+          image: "/img/advantages/2.png",
           text: "Онлайн-консультант",
         },
         {
-          image: "/src/assets/img/advantages/1.png",
+          image: "/img/advantages/1.png",
           text: "Большой ассортимент",
         },
       ],

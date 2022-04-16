@@ -56,37 +56,37 @@ export default {
       cards: [
         {
           type: "scooter",
-          image: "/src/assets/img/catalog/electric_scooters/1.jpg",
+          image: "/img/catalog/electric_scooters/1.jpg",
           text: "Xiaomi Mijia Electric Scooter m187 Black черный",
           price: "20 480",
         },
         {
           type: "scooter",
-          image: "/src/assets/img/catalog/electric_scooters/1.jpg",
+          image: "/img/catalog/electric_scooters/1.jpg",
           text: "Xiaomi Mijia Electric Scooter m187 Black черный",
           price: "20 480",
         },
         {
           type: "scooter",
-          image: "/src/assets/img/catalog/electric_scooters/1.jpg",
+          image: "/img/catalog/electric_scooters/1.jpg",
           text: "Xiaomi Mijia Electric Scooter m187 Black черный",
           price: "20 480",
         },
         {
           type: "scooter",
-          image: "/src/assets/img/catalog/electric_scooters/1.jpg",
+          image: "/img/catalog/electric_scooters/1.jpg",
           text: "Xiaomi Mijia Electric Scooter m187 Black черный",
           price: "20 480",
         },
         {
           type: "scooter",
-          image: "/src/assets/img/catalog/electric_scooters/1.jpg",
+          image: "/img/catalog/electric_scooters/1.jpg",
           text: "Xiaomi Mijia Electric Scooter m187 Black черный",
           price: "20 480",
         },
         {
           type: "scooter",
-          image: "/src/assets/img/catalog/electric_scooters/1.jpg",
+          image: "/img/catalog/electric_scooters/1.jpg",
           text: "Xiaomi Mijia Electric Scooter m187 Black черный",
           price: "20 480",
         },
