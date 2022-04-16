@@ -14,17 +14,25 @@
 }
 
 .callback-button {
-  font-size: 12pt;
+  font-size: 11pt;
   border: 3px solid #ffffff;
   border-radius: 30px;
   text-decoration: none;
   background-color: #3d67b0;
   color: #ffffff;
-  max-width: 250px;
+  max-width: 200px;
   text-transform: uppercase;
 }
 
 /* Gyro Info */
+
+.segway {
+  width: 33%;
+}
+
+.giro-info-text {
+  z-index: 1;
+}
 
 .gyro-info {
   background-color: #3d67b0;
@@ -36,8 +44,8 @@
 }
 
 .wave-delimiter {
-  min-height: 250px;
-  background-image: url(../img/first-page-bg.png);
+  min-height: 170px;
+  background-image: url(/img/first-page-bg.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +55,7 @@
 
 .consult-wave {
   min-height: 330px;
-  background-image: url(../img/section-delimiter.png);
+  background-image: url(/img/section-delimiter.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -66,4 +74,35 @@
 .brands-title {
   color: #3d67b0;
   font-weight: 700;
+}
+
+/* Useful Content */
+
+.useful-content {
+  background: #3d67b0;
+}
+
+.useful-content-text {
+  color: #ffffff;
+}
+
+/* News Form */
+
+.news-form {
+  background-image: url(/img/about-us-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 780px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #3d67b0;
+  color: #ffffff;
+}
+
+.social {
+  width: 27%;
 }

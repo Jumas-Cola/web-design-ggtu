@@ -32,12 +32,12 @@ export default {
         },
         {
           image: "/img/consultants/2.png",
-          text: "Галина Петрова",
+          text: "Светлана Астахова",
           position: "менеджер по продажам",
         },
         {
           image: "/img/consultants/3.png",
-          text: "Галина Петрова",
+          text: "Иван Алексеев",
           position: "менеджер по продажам",
         },
       ],

@@ -29,11 +29,11 @@ import "swiper/css/pagination";
 
 <style scoped>
 .card-img-top {
-  width: 11rem;
+  max-width: 11rem;
 }
 
 .swiper-button-prev {
-  background-image: url("/src/assets/img/slider/left.png") !important;
+  background-image: url("/img/slider/left.png") !important;
   background-size: 100% 100%;
   width: 50px;
   height: 50px;
@@ -44,7 +44,7 @@ import "swiper/css/pagination";
 }
 
 .swiper-button-next {
-  background-image: url("/src/assets/img/slider/right.png") !important;
+  background-image: url("/img/slider/right.png") !important;
   background-size: 100% 100%;
   width: 50px;
   height: 50px;
