@@ -1,7 +1,7 @@
 <template>
   <div class="slider mt-3 d-flex justify-content-around">
     <div class="d-flex align-items-center">
-      <img src="src/assets/img/slider/left.png" alt="" class="slider-arrow" />
+      <img src="/src/assets/img/slider/left.png" alt="" class="slider-arrow" />
     </div>
 
     <div class="card slider-card" style="width: 10rem" v-for="card in cards">
@@ -14,7 +14,7 @@
     </div>
 
     <div class="d-flex align-items-center">
-      <img src="src/assets/img/slider/right.png" alt="" class="slider-arrow" />
+      <img src="/src/assets/img/slider/right.png" alt="" class="slider-arrow" />
     </div>
   </div>
 </template>
