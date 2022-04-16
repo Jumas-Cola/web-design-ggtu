@@ -4,7 +4,7 @@ import ConsultCard from "./ConsultCard.vue";
 
 <template>
   <div class="d-flex justify-content-center">
-    <div class="content d-flex justify-content-around row">
+    <div class="content d-flex justify-content-around row w-75">
       <ConsultCard
         v-for="consult in consults"
         :image="consult.image"
