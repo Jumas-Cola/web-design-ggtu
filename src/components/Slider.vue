@@ -1,31 +1,61 @@
+<script setup>
+import Swiper, { Navigation, Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+</script>
+
 <template>
   <div class="slider mt-3 d-flex justify-content-around">
-    <div class="d-flex align-items-center">
-      <img src="/src/assets/img/slider/left.png" alt="" class="slider-arrow" />
-    </div>
-
-    <div class="card slider-card" style="width: 10rem" v-for="card in cards">
-      <img :src="card?.image" class="card-img-top" :alt="card?.text" />
-      <div class="card-body">
-        <p class="card-text slider-card-text d-flex justify-content-center">
-          {{ card?.text }}
-        </p>
+    <div ref="swiper" class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" v-for="card in cards">
+          <div class="d-flex justify-content-center">
+            <img :src="card?.image" class="card-img-top" :alt="card?.text" />
+          </div>
+          <div class="card-body d-block">
+            <p class="card-text slider-card-text d-flex justify-content-center">
+              {{ card?.text }}
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="d-flex align-items-center">
-      <img src="/src/assets/img/slider/right.png" alt="" class="slider-arrow" />
+      <div class="swiper-button-prev d-flex align-items-center"></div>
+      <div class="swiper-button-next d-flex align-items-center"></div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.slider-card {
-  border: none;
+.card-img-top {
+  width: 11rem;
 }
 
-.slider-arrow {
+.swiper-button-prev {
+  background-image: url("/src/assets/img/slider/left.png") !important;
+  background-size: 100% 100%;
+  width: 50px;
   height: 50px;
+}
+
+.swiper-button-prev::after {
+  content: none;
+}
+
+.swiper-button-next {
+  background-image: url("/src/assets/img/slider/right.png") !important;
+  background-size: 100% 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.swiper-button-next::after {
+  content: none;
+}
+
+.slider-card {
+  border: none;
 }
 
 .slider-card-text {
@@ -38,6 +68,20 @@
 
 <script>
 export default {
+  mounted() {
+    new Swiper(this.$refs.swiper, {
+      modules: [Navigation, Pagination],
+      loop: true,
+      slidesPerView: 4,
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  },
   data() {
     return {
       cards: [
