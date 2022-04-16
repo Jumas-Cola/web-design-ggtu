@@ -1,0 +1,44 @@
+/* Header */
+
+.header {
+  background-color: #3d67b0;
+  color: #ffffff;
+}
+
+.contacts-item {
+  text-align: left;
+}
+
+.contacts-item img {
+  max-width: 20px;
+}
+
+.callback-button {
+  font-size: 12pt;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: #3d67b0;
+  color: #ffffff;
+  max-width: 250px;
+  text-transform: uppercase;
+}
+
+/* Gyro Info */
+
+.gyro-info {
+  background-color: #3d67b0;
+  color: #ffffff;
+}
+
+.gyro-info-plus {
+  margin-top: 50px;
+}
+
+.wave-delimiter {
+  min-height: 250px;
+  background-image: url(../img/first-page-bg.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
