@@ -56,9 +56,9 @@
 .consult-wave {
   min-height: 330px;
   background-image: url(/img/section-delimiter.png);
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
 
   font-size: 24pt;
   font-weight: 800;
