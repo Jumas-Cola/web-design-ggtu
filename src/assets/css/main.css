@@ -87,12 +87,15 @@
 }
 
 /* News Form */
-
-.news-form {
+.news-form-block {
   background-image: url(/img/about-us-bg.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  height: 780px;
+}
+
+.news-form {
   height: 780px;
 }
 
